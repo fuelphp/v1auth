@@ -1,0 +1,24 @@
+{
+	"name": "fuelphp/v1auth",
+	"description": "Fuel PHP Framework - Version 1 PSR-4 Auth Package",
+	"keywords": ["fuel", "fuelphp", "v1", "auth"],
+	"homepage": "https://github.com/fuelphp/v1auth",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Fuel PHP Framework Development Team",
+			"email": "team@fuelphp.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"codeception/codeception": "~2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Fuel\\Auth\\": "classes/"
+		}
+	}
+}
