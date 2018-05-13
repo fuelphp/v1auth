@@ -12,6 +12,7 @@
 	],
 	"require": {
 		"php": ">=5.4"
+		"fuelphp/v1core": "dev-master as 1.9.0"
 	},
 	"require-dev": {
 		"codeception/codeception": "~2.0"
@@ -19,6 +20,9 @@
 	"autoload": {
 		"psr-4": {
 			"Fuel\\Auth\\": "classes/"
-		}
+		},
+		"files": [
+			"src/bootstrap.php"
+		]
 	}
 }
