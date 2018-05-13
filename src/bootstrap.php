@@ -10,4 +10,5 @@
  * @link       http://fuelphp.com
  */
 
-\Autoloader::add_core_namespace('Auth');
+// this is executed on composer load, so no aliasing available
+\Fuel\Core\Autoloader::add_core_namespace('Auth');
