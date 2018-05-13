@@ -19,7 +19,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Fuel\\Auth\\": "classes/"
+			"Auth\\": "classes/"
 		},
 		"files": [
 			"src/bootstrap.php"
