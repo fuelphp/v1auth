@@ -11,8 +11,8 @@
 		}
 	],
 	"require": {
-		"php": ">=5.4",
-		"fuelphp/v1core": "dev-master as 1.9.0"
+		"php": ">=5.5",
+		"fuelphp/v1core": "dev-master"
 	},
 	"require-dev": {
 		"codeception/codeception": "~2.0"
